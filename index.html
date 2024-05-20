@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>collagee</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="search" placeholder="Search for an album..."><button onclick="searchAlbum()">Search</button>
+        or add custom
+        <input type="text" id="custom-album-cover" placeholder="Album cover url...">
+        and 
+        <input type="text" id="custom-album-title" placeholder="Album title..."><button>Add</button></br>
+        Chart size: <input type="number" id="chart-size" value="4" style="width: 30px">
+        Chart title (opt.): <input type="text" id="chart-title">
+    </div>
+    <div id="results"></div>
+    <canvas id="canvas"></canvas>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,600&display=swap');
+
+body, html {
+    /* margin: 0;
+    padding: 0; */
+    overflow-x: hidden;
+    background: black;
+    color: white;
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+}
+input {
+    margin: 5px 0;
+}
+button {
+    margin: 0;
+}

@@ -1,0 +1,1 @@
+### Entirely client-side music album chart generator 
